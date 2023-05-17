@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry : {
+  entry: {
     index: './src/scripts/index.js',
   },
   devServer: {
@@ -15,9 +15,9 @@ module.exports = {
       template: './src/templates/template.html',
     }),
   ],
-  output : {
+  output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
   module: {
@@ -31,11 +31,11 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
       },
     ],
   },
   optimization: {
     runtimeChunk: 'single',
   },
-}
+};

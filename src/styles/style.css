@@ -1,12 +1,13 @@
-@font-face { 
+@font-face {
   font-family: 'MyFont';
-  src: url('../fonts/Kanit/Kanit-Black.ttf') format('truetype'),
-  url('../fonts/Kanit/Kanit-BlackItalic.ttf') format('truetype');
+  src:
+    url('../fonts/Kanit/Kanit-Black.ttf') format('truetype'),
+    url('../fonts/Kanit/Kanit-BlackItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }
 
 body {
-  font-family: 'MyFont';
+  font-family: 'MyFont', sans-serif;
   background: bisque;
 }

@@ -1,3 +1,5 @@
-import "../styles/style.css";
+/* eslint-disable no-console */
 
-console.log("test");
+import '../styles/style.css';
+
+console.log('test');
